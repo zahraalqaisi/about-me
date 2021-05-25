@@ -18,10 +18,10 @@ let favSinger=prompt('do you think that hamza namera is my best singer?');
 favSinger = favSinger .toUpperCase();
 console.log('after',favSinger);
 
-if (favSinger==='YES') {
+if (favSinger==='YES' || 'Y') {
     console.log('thats right i love his songs spicially zahra');
     alert ('thats right i love his songs spicially zahra');
-} else if (favSinger==='NO') {
+} else if (favSinger==='NO' || 'N') {
     console.log('thats wrong i love hamza namera');
     alert ('thats wrong i love hamza namera');
 
@@ -30,10 +30,10 @@ if (favSinger==='YES') {
 let favFood=prompt('is my favourite food is shawrma?');
 favFood=favFood .toUpperCase();
 console.log('after', favFood);
-if (favFood=='YES') {
+if (favFood=='YES' || 'Y') {
     console.log('yes sure it is');
     alert ('yes sure it is');
-} else if (favFood== 'NO') {
+} else if (favFood== 'NO' || 'N') {
     console.log('it is my favourite food');
     alert ('it is my favourite food');
 }
@@ -41,10 +41,10 @@ if (favFood=='YES') {
 let pit=prompt('do i like animals?');
 pit=pit .toUpperCase();
 console.log('after', pit);
-if (pit=='YES') {
+if (pit=='YES' || 'Y') {
     console.log('i will never touch any kind of animals');
     alert ('i will never touch any kind of animals');
-} else if (pit=='NO') {
+} else if (pit=='NO' || 'N') {
     console.log('thats right');
     alert ('thats right');
 
@@ -53,10 +53,10 @@ if (pit=='YES') {
 let travel=prompt('do i like to travel?');
 travel=travel.toUpperCase();
 console.log('after', travel);
- if (travel=='YES') {
+ if (travel=='YES' || 'Y') {
      console.log('that is right');
      alert ('that is right');
- } else if (travel=='NO') {
+ } else if (travel=='NO' || 'N') {
      console.log('that is not right');
      alert ('that is not right');
     
@@ -66,13 +66,14 @@ console.log('after', travel);
  favColor=favColor .toUpperCase();
  console.log('after', favColor);
 
- if (favColor=='YES') {
+ if (favColor=='YES' || 'Y') {
      console.log('thats wrong my favourite color is darkgreen');
      alert ('thats wrong my favourite color is darkgreen');
     
- } else if (favColor==='NO') {
+ } else if (favColor==='NO' || 'N') {
      console.log(' my favourite color is darkgreen');
      alert (' my favourite color is darkgreen');
+    
  }
 
 
