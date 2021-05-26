@@ -82,6 +82,8 @@ if (pit=='YES' || pit=='Y') {
  Q3();
 
  //q.4
+
+function Q4(){ 
 let travel=prompt('do i like to travel?');
 travel=travel.toUpperCase();
 console.log('after', travel);
@@ -96,6 +98,10 @@ console.log('after', travel);
  } else{
     alert( 'please answer with YES/Y OR no/n') 
  } 
+}
+
+Q4();
+
 
 
  //q.5
