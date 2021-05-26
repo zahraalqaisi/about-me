@@ -155,7 +155,7 @@ Q6();
 
 //q.7
 
-function fruit() {
+function Q7() {
     let favFruit = ['apple', 'strawberry', 'orange', 'grape', 'watermelon'];
 
     for (let i = 0; i < 6; i++) {
@@ -176,7 +176,7 @@ function fruit() {
     }
 }
 
-fruit();
+Q7();
 
 alert('My favorite fruits are: apple, strawberry, orange, grape and watermelon');
 // i had help with the 7th and 6th Q. 
