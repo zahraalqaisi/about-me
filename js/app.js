@@ -105,6 +105,8 @@ Q4();
 
 
  //q.5
+
+ function Q5(){
  let favColor=prompt('is my favourite color is red?');
  favColor=favColor .toUpperCase();
  console.log('after', favColor);
@@ -121,6 +123,9 @@ Q4();
  } else{
     alert( 'please answer with YES/Y OR no/n') 
  }
+}
+
+Q5();
  
 
 //q.6
