@@ -14,6 +14,8 @@ alert ('hi there'+ userName+ 'your age is'+ age);
 
 // we will start the game
 let score=0;
+
+// q.1
 let favSinger=prompt('do you think that hamza namera is my best singer?');
 favSinger = favSinger .toUpperCase();
 console.log('after',favSinger);
@@ -29,6 +31,8 @@ if (favSinger==='YES' || favSinger==='Y') {
    alert( 'please answer with YES/Y OR no/n') 
 } 
 
+//q.2
+
 let favFood=prompt('is my favourite food is shawrma?');
 favFood=favFood .toUpperCase();
 console.log('after', favFood);
@@ -43,6 +47,8 @@ if (favFood=='YES' || favFood=='Y') {
     alert( 'please answer with YES/Y OR no/n') 
  } 
 
+
+ //q.3
 let pit=prompt('do i like animals?');
 pit=pit .toUpperCase();
 console.log('after', pit);
@@ -58,6 +64,8 @@ if (pit=='YES' || pit=='Y') {
     alert( 'please answer with YES/Y OR no/n') 
  } 
 
+
+ //q.4
 let travel=prompt('do i like to travel?');
 travel=travel.toUpperCase();
 console.log('after', travel);
@@ -73,6 +81,8 @@ console.log('after', travel);
     alert( 'please answer with YES/Y OR no/n') 
  } 
 
+
+ //q.5
  let favColor=prompt('is my favourite color is red?');
  favColor=favColor .toUpperCase();
  console.log('after', favColor);
@@ -91,7 +101,7 @@ console.log('after', travel);
  }
  
 
-
+//q.6
  let guess=prompt('guess my luck number it is between 1-10?') ;
 
  let luck = 5;
@@ -112,6 +122,7 @@ guess=prompt('guess my luck number it is between 1-10?')
 alert ('my luck number is 5');
 
 
+//q.7
 
 function fruit() {
     let favFruit = ['apple', 'strawberry', 'orange', 'grape', 'watermelon'];
@@ -137,7 +148,7 @@ function fruit() {
 fruit();
 
 alert('My favorite fruits are: apple, strawberry, orange, grape and watermelon');
-// i had help with the 7th Q.
+// i had help with the 7th and 6th Q. 
 
 alert('Good Job!... You got ' + score + ' correct answers!');
 
