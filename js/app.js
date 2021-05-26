@@ -137,6 +137,7 @@ function fruit() {
 fruit();
 
 alert('My favorite fruits are: apple, strawberry, orange, grape and watermelon');
+// i had help with the 7th Q.
 
 alert('Good Job!... You got ' + score + ' correct answers!');
 
