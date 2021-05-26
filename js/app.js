@@ -1,19 +1,21 @@
 'use strict';
 
 // ash the user about his name and his age 
-
+let score=0;
 let userName=prompt('hi, whats your name?');
 console.log(userName);
 
 alert ('hi there'+ userName);
 
+
+function Q1(){
 let age=prompt('whats your age?');
 console.log(age);
 
 alert ('hi there'+ userName+ 'your age is'+ age);
 
 // we will start the game
-let score=0;
+
 
 // q.1
 let favSinger=prompt('do you think that hamza namera is my best singer?');
@@ -30,9 +32,12 @@ if (favSinger==='YES' || favSinger==='Y') {
 } else{
    alert( 'please answer with YES/Y OR no/n') 
 } 
+}
+
+Q1();
 
 //q.2
-
+function Q2(){
 let favFood=prompt('is my favourite food is shawrma?');
 favFood=favFood .toUpperCase();
 console.log('after', favFood);
@@ -47,25 +52,38 @@ if (favFood=='YES' || favFood=='Y') {
     alert( 'please answer with YES/Y OR no/n') 
  } 
 
+}
+
+Q2();
 
  //q.3
+
+function Q3(){
+
 let pit=prompt('do i like animals?');
-pit=pit .toUpperCase();
+
+pit = pit.toUpperCase();
+
 console.log('after', pit);
+
 if (pit=='YES' || pit=='Y') {
     console.log('i will never touch any kind of animals');
-    alert ('i will never touch any kind of animals');
+    alert('i will never touch any kind of animals');
 } else if (pit=='NO' || pit=='N') {
     console.log('thats right');
-    alert ('thats right');
+    alert('thats right');
     score++;
 
 }else{
-    alert( 'please answer with YES/Y OR no/n') 
+    alert( 'please answer with YES/Y OR no/n'); 
  } 
-
+ }
+ 
+ Q3();
 
  //q.4
+
+function Q4(){ 
 let travel=prompt('do i like to travel?');
 travel=travel.toUpperCase();
 console.log('after', travel);
@@ -80,9 +98,15 @@ console.log('after', travel);
  } else{
     alert( 'please answer with YES/Y OR no/n') 
  } 
+}
+
+Q4();
+
 
 
  //q.5
+
+ function Q5(){
  let favColor=prompt('is my favourite color is red?');
  favColor=favColor .toUpperCase();
  console.log('after', favColor);
@@ -99,9 +123,15 @@ console.log('after', travel);
  } else{
     alert( 'please answer with YES/Y OR no/n') 
  }
+}
+
+Q5();
  
 
 //q.6
+
+
+function Q6(){
  let guess=prompt('guess my luck number it is between 1-10?') ;
 
  let luck = 5;
@@ -120,11 +150,12 @@ guess=prompt('guess my luck number it is between 1-10?')
      }
 }
 alert ('my luck number is 5');
-
+}
+Q6();
 
 //q.7
 
-function fruit() {
+function Q7() {
     let favFruit = ['apple', 'strawberry', 'orange', 'grape', 'watermelon'];
 
     for (let i = 0; i < 6; i++) {
@@ -145,7 +176,7 @@ function fruit() {
     }
 }
 
-fruit();
+Q7();
 
 alert('My favorite fruits are: apple, strawberry, orange, grape and watermelon');
 // i had help with the 7th and 6th Q. 
