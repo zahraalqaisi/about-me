@@ -37,7 +37,7 @@ if (favSinger==='YES' || favSinger==='Y') {
 Q1();
 
 //q.2
-
+function Q2(){
 let favFood=prompt('is my favourite food is shawrma?');
 favFood=favFood .toUpperCase();
 console.log('after', favFood);
@@ -52,6 +52,9 @@ if (favFood=='YES' || favFood=='Y') {
     alert( 'please answer with YES/Y OR no/n') 
  } 
 
+}
+
+Q2();
 
  //q.3
 let pit=prompt('do i like animals?');
