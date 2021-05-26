@@ -1,7 +1,7 @@
 'use strict';
 
 // ash the user about his name and his age 
-
+let score=0;
 let userName=prompt('hi, whats your name?');
 console.log(userName);
 
@@ -15,7 +15,7 @@ console.log(age);
 alert ('hi there'+ userName+ 'your age is'+ age);
 
 // we will start the game
-let score=0;
+
 
 // q.1
 let favSinger=prompt('do you think that hamza namera is my best singer?');
@@ -57,21 +57,29 @@ if (favFood=='YES' || favFood=='Y') {
 Q2();
 
  //q.3
+
+function Q3(){
+
 let pit=prompt('do i like animals?');
-pit=pit .toUpperCase();
+
+pit = pit.toUpperCase();
+
 console.log('after', pit);
+
 if (pit=='YES' || pit=='Y') {
     console.log('i will never touch any kind of animals');
-    alert ('i will never touch any kind of animals');
+    alert('i will never touch any kind of animals');
 } else if (pit=='NO' || pit=='N') {
     console.log('thats right');
-    alert ('thats right');
+    alert('thats right');
     score++;
 
 }else{
-    alert( 'please answer with YES/Y OR no/n') 
+    alert( 'please answer with YES/Y OR no/n'); 
  } 
-
+ }
+ 
+ Q3();
 
  //q.4
 let travel=prompt('do i like to travel?');
