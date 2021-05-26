@@ -129,6 +129,9 @@ Q5();
  
 
 //q.6
+
+
+function Q6(){
  let guess=prompt('guess my luck number it is between 1-10?') ;
 
  let luck = 5;
@@ -147,7 +150,8 @@ guess=prompt('guess my luck number it is between 1-10?')
      }
 }
 alert ('my luck number is 5');
-
+}
+Q6();
 
 //q.7
 
