@@ -7,6 +7,8 @@ console.log(userName);
 
 alert ('hi there'+ userName);
 
+
+function Q1(){
 let age=prompt('whats your age?');
 console.log(age);
 
@@ -30,6 +32,9 @@ if (favSinger==='YES' || favSinger==='Y') {
 } else{
    alert( 'please answer with YES/Y OR no/n') 
 } 
+}
+
+Q1();
 
 //q.2
 
